@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.contactBook {
+  display: flex;
+}
+.contactList{
+  display: block;
+  position: relative;
+  list-style-type: none;
+  width: 30%;
+  padding:  0;
+  margin: 10px;
+}
+.contactLi {
+  padding: 20px;
+  border: 1px solid black; 
+}
+.contactLi :hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.detailedInfo {
+  display: block;
+  position: relative;
+ 
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.detailedInfo div{
+  padding: 20px;
+  border: 1px solid black; 
+}
